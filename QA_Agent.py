@@ -327,12 +327,10 @@ def main():
     # Inputs
     pdfs_path = './docs'
     df, faiss_index = process_documents_pipeline('./docs')
-    questions = [
-        "What is the name of the company?",
-        "Who is the CEO of the company?",
-        "What is their vacation policy?",
-        "What is the termination policy?"
-    ]
+
+    print("Please enter comma separated list of questions!")
+    questions_input = input()
+    questions = questions_input.split(',')
 
     # Step 2: Answer questions based on PDF content
     print("Answering questions...")
