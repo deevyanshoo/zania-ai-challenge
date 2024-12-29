@@ -26,5 +26,6 @@ This project demonstrates an AI agent capable of answering questions based on th
    git clone https://github.com/deevyanshoo/zania-ai-challenge.git
    cd zania-ai-challenge
 2. Create and save a .env file in the root directory:
+    ```bash
     OPEN_API_KEY = "your api key"
 3. Install all the dependencies mentioned in requirements.txt file
