@@ -1,0 +1,10 @@
+openai
+json
+PyPDF2
+langchain-community
+faiss-cpu
+os
+pandas
+tqdm
+ordered_set
+rank-bm25
