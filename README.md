@@ -29,3 +29,6 @@ This project demonstrates an AI agent capable of answering questions based on th
     ```bash
     OPEN_API_KEY = "your api key"
 3. Install all the dependencies mentioned in requirements.txt file
+4. Open cmd and run the QA_Agent.py file and enter comma separated questions once prompted to
+    ```bash
+    python QA_Agent.py
